@@ -4,7 +4,7 @@ if [[ -f 'file01.txt' ]];
 then 
   echo "Copying file01"
   pwd
-  cp file01.txt /home/systemsltd/Ayesha
+  sudo cp file01.txt /home/systemsltd/Ayesha
 else
   echo "File Doesn't exist"
 fi
