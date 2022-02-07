@@ -1,7 +1,9 @@
 #!/bin/bash
 ls -lrt
 if [[ -f 'file01.txt' ]];
-then 
+then
+  chmod 777 file01.txt
+  ls -lrt
   echo "Copying file01"
   cp file01.txt /home/systemsltd/Ayesha/
 else
