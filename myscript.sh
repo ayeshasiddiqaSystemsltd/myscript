@@ -1,10 +1,9 @@
 #!/bin/bash
 
+cd /home/systemsltd/Ayesha
 if [[ -f 'file01.txt' ]];
 then 
   echo "Copying file01"
-  pwd
-  whoami
   cp file01.txt /home/systemsltd/Ayesha
 else
   echo "File Doesn't exist"
