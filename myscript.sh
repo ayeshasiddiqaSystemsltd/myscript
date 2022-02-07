@@ -1,5 +1,7 @@
 #!/bin/bash
-cp -f fileA.txt /home/systemsltd/
+if [[ -f 'FileA.txt' ]];
+then
+  cp -f FileA.txt /home/systemsltd/
 if [[ -f 'file01.txt' ]];
 then
   echo "Copying file01"
@@ -20,5 +22,7 @@ then
   cp -f file03.txt /home/systemsltd/
 else
   echo "Files Doesn't exist"
+else
+  echo "FileA not exist"
 fi
          
