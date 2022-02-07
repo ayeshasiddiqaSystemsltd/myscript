@@ -22,6 +22,7 @@ then
     cp -f file03.txt /home/systemsltd/
   else
     echo "Files Doesn't exist"
+  fi
 else
   echo "FileA not exist"
 fi
