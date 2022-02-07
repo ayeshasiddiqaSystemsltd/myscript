@@ -3,10 +3,14 @@ if [[ -f 'file01.txt' ]];
 then 
   echo "Copying file01"
   cp file01.txt $WORKSPACE/AyeshaSiddiqa
+else
+  echo "File Doesn't exist"
     if [[ -f 'file02.txt' ]];
     then
       echo "Copying file02"
-      cp file02.txt $WORKSPACE/AyeshaSiddiqa 
+      cp file02.txt $WORKSPACE/AyeshaSiddiqa
+    else
+      echo "Files Doesn't exist"
         if  [[ -f 'file03.txt' ]];
         then
           echo "Copying file03"
