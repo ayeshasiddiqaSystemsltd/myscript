@@ -1,6 +1,6 @@
 #!/bin/bash
 
-su systemsltd
+ls -lrt
 if [[ -f 'file01.txt' ]];
 then 
   echo "Copying file01"
