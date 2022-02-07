@@ -11,7 +11,7 @@ else
 fi
 if [[ -f 'file02.txt' ]];
 then 
-  chmod 777 file01.txt
+  chmod 777 file02.txt
   ls -lrt
   echo "Copying file02"
   cp file02.txt /home/systemsltd/Ayesha/
@@ -19,7 +19,7 @@ then
 fi
 if  [[ -f 'file03.txt' ]];
 then
-  chmod 777 file01.txt
+  chmod 777 file03.txt
   ls -lrt
   echo "Copying file03"
   cp file03.txt /home/systemsltd/Ayesha/
