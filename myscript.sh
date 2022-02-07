@@ -5,19 +5,19 @@ then
   cp file01.txt $WORKSPACE/AyeshaSiddiqa
 else
   echo "File Doesn't exist"
-    if [[ -f 'file02.txt' ]];
-    then
-      echo "Copying file02"
-      cp file02.txt $WORKSPACE/AyeshaSiddiqa
-    else
-      echo "Files Doesn't exist"
-        if  [[ -f 'file03.txt' ]];
-        then
-          echo "Copying file03"
-          cp file03.txt $WORKSPACE/AyeshaSiddiqa
-        else
-          echo "Files Doesn't exist"
-        fi
-     fi
+fi
+if [[ -f 'file02.txt' ]];
+then
+  echo "Copying file02"
+  cp file02.txt $WORKSPACE/AyeshaSiddiqa
+else
+  echo "Files Doesn't exist"
+fi
+if  [[ -f 'file03.txt' ]];
+then
+  echo "Copying file03"
+  cp file03.txt $WORKSPACE/AyeshaSiddiqa
+else
+  echo "Files Doesn't exist"
 fi
          
