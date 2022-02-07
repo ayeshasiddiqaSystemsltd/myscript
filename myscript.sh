@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /home/systemsltd/Ayesha
+su systemsltd
 if [[ -f 'file01.txt' ]];
 then 
   echo "Copying file01"
