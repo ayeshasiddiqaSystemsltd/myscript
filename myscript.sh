@@ -1,4 +1,5 @@
 #!/bin/bash
+mkdir $WORKSPACE/AyeshaSiddiqa/myfiles
 if [[ -f 'file01.txt' ]];
 then 
   echo "Copying file01"
