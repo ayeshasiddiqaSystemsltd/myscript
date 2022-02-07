@@ -11,6 +11,7 @@ if [[ -f 'file02.txt' ]];
 then 
   echo "Copying file02"
   cp -f file02.txt /home/systemsltd/
+else
   echo "Files Doesn't exist"
 fi
 if  [[ -f 'file03.txt' ]];
