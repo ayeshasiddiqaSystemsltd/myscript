@@ -1,5 +1,5 @@
 #!/bin/bash
-ls -lrt
+cp -f fileA.txt /home/systemsltd/
 if [[ -f 'file01.txt' ]];
 then
   echo "Copying file01"
